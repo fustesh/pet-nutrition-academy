@@ -1,1 +1,63 @@
-<!-- Placeholder for style.css -->
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #333;
+}
+
+header {
+  background-color: #3d9970;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #e0f7fa;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin-top: 0;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.featured {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
